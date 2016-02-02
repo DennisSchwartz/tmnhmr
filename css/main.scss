@@ -36,26 +36,29 @@ $primary-color: #f5f5f5;
 $secondary-color: #235789;
 $tertiary-color: #ED1C24;
 
-
-// Use media queries like this:
-// @include media-query($on-palm) {
-//     .wrapper {
-//         padding-right: $spacing-unit / 2;
-//         padding-left: $spacing-unit / 2;
-//     }
-// }
-@mixin media-query($device) {
-  @media screen and (max-width: $device) {
-    @content;
-  }
+.fa {
+  font-size: 4em;
 }
 
+  // Use media queries like this:
+  // @include media-query($on-palm) {
+  //     .wrapper {
+  //         padding-right: $spacing-unit / 2;
+  //         padding-left: $spacing-unit / 2;
+  //     }
+  // }
+  @mixin media-query($device) {
+    @media screen and (max-width: $device) {
+      @content;
+    }
+  }
 
-// Import partials from `sass_dir` (defaults to `_sass`)
-@import
-      "materialize",
-      "base",
-      "layout",
-      "syntax-highlighting"
-;
+
+  // Import partials from `sass_dir` (defaults to `_sass`)
+  @import
+  "materialize",
+  "base",
+  "layout",
+  "syntax-highlighting"
+  ;
 
