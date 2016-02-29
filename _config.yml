@@ -10,7 +10,7 @@ title: Tim Nauheimer
 email: schwartz_dennis@web.de
 description: > # this means to ignore newlines until "baseurl:"
   Tim Nauheimer - Filmemacher - Fotographie - Video
-baseurl: "/tmnhmr" # the subpath of your site, e.g. /blog
+baseurl: "" # the subpath of your site, e.g. /blog
 url: "http://timnauheimer.de" # the base hostname & protocol for your site
 twitter_username: jekyllrb
 github_username:  jekyll
